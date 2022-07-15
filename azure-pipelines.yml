@@ -28,8 +28,7 @@ steps:
     path: $(npm_config_cache)
   displayName: Cache npm
 
-- script: npm clean install
-
+- script: npm install
 
 - script: |
     npm install -g @angular/cli
