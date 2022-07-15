@@ -7,9 +7,8 @@ trigger:
 - main
 
 pool:
-  name: Default
-  demands:
-    - agent.name -equals az002-linux
+  vmImage: 'ubuntu-latest'
+  
 
 steps:
 - task: NodeTool@0
